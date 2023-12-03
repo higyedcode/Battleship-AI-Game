@@ -18,3 +18,11 @@ This simple yet engaging Battleship game was created for my University Programmi
   - The gameplay adheres to the classic Battleship rules. Each player has a game board with ships of different sizes, including a 5-block ship, a 4-block ship, two 3-block ships, and one 2-block ship.
   - Players take turns to guess the coordinates of the opponent's ships. If a hit is achieved, the player retains their turn until a miss occurs.
   - Hit and miss spots are visually marked on the board, enhancing the gaming experience.
+
+## Getting Started 🚀
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/battleship-game.git
+   cd battleship-game
+   python main.py
