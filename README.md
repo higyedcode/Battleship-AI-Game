@@ -1,43 +1,20 @@
-# :video_game: Assignment 09
-## Requirements
-- You will be given one of the problems below to solve
-- Use object oriented programming and layered architecture
-- All modules with the exception of the UI will have specifications and PyUnit test cases
-- The program must protect itself against the user’s invalid input
+# Battleship Game 🚢💥
 
-**NB!** We do not expect you to implement optimal play for the computer player. However, it should still employ a strategy when making its moves in order to attempt to win the game and provide an entertaining opponent for the human player. Minimally, the computer player should move to win the game whenever possible and should block the human player’s attempts at 1-move victory, whenever possible
+Welcome to the Battleship Game showcase! 🎮 
 
-**deadline is week 14**
+This simple yet engaging Battleship game was created for my University Programming Fundamentals course, featuring a single-player mode where you can test your strategic prowess against an AI opponent. The AI player utilizes advanced statistics and probabilities to determine the next best optimal move, adjusting tactics dynamically during gameplay to maximize success.
 
-## GUI Bonus (0.2P)
-- In addition to the console-based user interface required, also implement a graphical user interface (GUI) for the program
-- To receive the bonus, both user interfaces (menu-based and graphical) must use the same program layers. You have to be able to start the application with either user interface
-## AI Bonus (0.2P)
-- Implement computer AI using a [minimax algorithm](https://en.wikipedia.org/wiki/Minimax). Computer play should be competitive against the human player
-- In the case where minimax cannot be applied (e.g. Battleship, which is not a [complete information](https://en.wikipedia.org/wiki/Complete_information) game), find a suitable alternative; talk to your lab professor about the bonus possibility in this case
-## Best-of-FP Bonus (0.2P)
-- This bonus will be awarded to the very best implementations. To receive it, you need to implement both the **GUI** and **AI** bonuses, follow all implementation requirements, and have your work be selected by the laboratory professor
-- These implementations will be part of a separate GitHub repository that we aim to make publicly accessible in order to feature some of our students' best work during this semester
+## Features 🌟
 
+- **AI Player with Statistics and Probabilities:**📈
+  - The AI opponent leverages a sophisticated algorithm based on the principles outlined in the study [here](http://www.datagenetics.com/blog/december32011/).
+  - It strategically analyzes the game board, optimizing its moves based on statistical probabilities, creating a challenging and dynamic gaming experience.
 
-## Problem Statements
-### Connect Four
-The game is described [here](https://en.wikipedia.org/wiki/Connect_Four)
+- **Intuitive GUI with Tkinter:** 🎆
+  - The game boasts a user-friendly graphical user interface (GUI) created with Tkinter, ensuring a seamless and enjoyable gaming experience for players of all skill levels.
+  - The interface is simple, effective, and easy to understand, providing a visually appealing representation of the game board and battleships.
 
-### Gomoku
-The game is described [here](https://en.wikipedia.org/wiki/Gomoku)
-
-### Obstruction
-The game is described [here](http://www.papg.com/show?2XMX)
-
-### Battleship
-The game is described [here](https://en.wikipedia.org/wiki/Battleship_(game))
-
-### Planes
-The game is described [here](https://ro.wikipedia.org/wiki/Avioane_(joc))
-
-### Nine men's morris
-The game is described [here](https://en.wikipedia.org/wiki/Nine_men%27s_morris)
-
-### Other games!
-You are free to implement a different board game, as long as its complexity is similar to those above. Talk to your laboratory professor to validate your idea before starting work!
+- **Classic Gameplay:** 🕹️
+  - The gameplay adheres to the classic Battleship rules. Each player has a game board with ships of different sizes, including a 5-block ship, a 4-block ship, two 3-block ships, and one 2-block ship.
+  - Players take turns to guess the coordinates of the opponent's ships. If a hit is achieved, the player retains their turn until a miss occurs.
+  - Hit and miss spots are visually marked on the board, enhancing the gaming experience.
