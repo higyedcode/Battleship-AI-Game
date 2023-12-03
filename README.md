@@ -2,6 +2,8 @@
 
 Welcome to the Battleship Game showcase! 🎮 
 
+![Alt text](hit_miss.png)
+
 This simple yet engaging Battleship game was created for my University Programming Fundamentals course, featuring a single-player mode where you can test your strategic prowess against an AI opponent. The AI player utilizes advanced statistics and probabilities to determine the next best optimal move, adjusting tactics dynamically during gameplay to maximize success.
 
 ## Features 🌟
@@ -22,8 +24,6 @@ This simple yet engaging Battleship game was created for my University Programmi
 ## Getting Started 🚀
 
 1. **Clone the Repository:**
-
-
    ```bash
    git clone https://github.com/your-username/battleship-game.git
    cd battleship-game
